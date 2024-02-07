@@ -93,7 +93,7 @@
                       "Id": null,
                       "ModuleId": null,
                       "Version": null,
-                      "ObjectGuid": "7afd5466-095f-4ab6-8b07-9d5c2b8039b0",
+                      "ObjectGuid": "fac8a100-699a-416f-9b4b-b9032faa7eb8",
                       "SlotIndex": 0,
                       "StructuralItems": []
                     },
@@ -106,7 +106,7 @@
                       "Id": null,
                       "ModuleId": null,
                       "Version": null,
-                      "ObjectGuid": "6cb6c43f-0b7f-4ab6-b229-209434ca10be",
+                      "ObjectGuid": "53f97889-80a5-41e7-b998-b1e4d8196041",
                       "SlotIndex": 0,
                       "StructuralItems": []
                     }
@@ -517,6 +517,32 @@
                   "ModuleId": null,
                   "Version": null,
                   "ObjectGuid": "8f588275-0c9e-4bce-b494-70fc5c9c7069",
+                  "SlotIndex": 0,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "FC_GetInput",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "9a7e8f77-cf7c-4eba-b933-a95543098a59",
+                  "SlotIndex": 0,
+                  "StructuralItems": []
+                },
+                {
+                  "Name": "FC_SetOutput",
+                  "IconName": null,
+                  "EcadId": null,
+                  "TypeName": "_3S.CoDeSys.POUObject.POUObject",
+                  "Type": 0,
+                  "Id": null,
+                  "ModuleId": null,
+                  "Version": null,
+                  "ObjectGuid": "885e9fca-7e54-403e-823c-ca54cc45f4d1",
                   "SlotIndex": 0,
                   "StructuralItems": []
                 }
