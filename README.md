@@ -10,7 +10,7 @@ Cours AutB
 
 Author: [Cédric Lenoir](mailto:cedric.lenoir@hevs.ch)
 
-# LAB-02-AutB-Data-Structure
+# LAB 02 A data structure to manage a conveyor
 
 # Préambule
 ## Communication PLC to PLC
