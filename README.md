@@ -30,7 +30,7 @@ Le PLC Siemens écrit ses entrées sur des variables globales du ctrlX et lit le
 Le temps de cycle est tellement peu stable que nous pouvons le constater visuellement ou auditivement avec le buzzer, alors que si nous pouvions utiliser le protocol Profinet IO, nous aurions des temps de réponse de quelques millisecondes.
 
 ### Contrainte techniques à l'éciture du code
-Les résultats des détecteurs peuvent être imprécis.
+**Les résultats des détecteurs peuvent être imprécis**.
 La manière d'utiliser les tags est particulière. Un compilateur ne traite pas des variables qui ne sont pas utilisées dans le code. Comme nous avons besoin de ses variables pour la communication, nous les avons utilisées pour les mettre à disposition via une structure.
 
 Cela simplifie l'écriture du code, puisque toutes les données en entrée et sorties sont disponibles pour la progrmmation via la structure globale : ``GVL_Abox.uaAboxInterface``.
@@ -233,10 +233,10 @@ VAR
 	fbOutStation	: FB_OutStation;
 	fbDrive			: FB_Drive;
 END_VAR
-``
+```
 
 ## Test mode
-Dans le programme, nous introduisons **un mode test basic**. L'avantage: il suffit d'activer le BOOL testMode pour désactiver la partie algorithique.
+Dans le programme, nous introduisons **un mode test basic**. L'avantage: il suffit d'activer le ``BOOL`` testMode pour désactiver la partie algorithique.
 
 ```iecst
 PROGRAM PLC_PRG
